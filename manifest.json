@@ -1,0 +1,34 @@
+{
+  "author": "Michael Stegeman",
+  "description": "Netgear adapter for Mozilla WebThings Gateway.",
+  "gateway_specific_settings": {
+    "webthings": {
+      "exec": "{nodeLoader} {path}",
+      "primary_type": "adapter",
+      "strict_max_version": "*",
+      "strict_min_version": "0.10.0"
+    }
+  },
+  "homepage_url": "https://github.com/mrstegeman/netgear-adapter#readme",
+  "id": "netgear-adapter",
+  "license": "MPL-2.0",
+  "manifest_version": 1,
+  "name": "Netgear",
+  "options": {
+    "schema": {
+      "type": "object",
+      "required": [
+        "password"
+      ],
+      "properties": {
+        "password": {
+          "title": "Admin Password",
+          "description": "Administrator password for router web interface.",
+          "type": "string"
+        }
+      }
+    }
+  },
+  "short_name": "Netgear",
+  "version": "0.0.1"
+}

@@ -1,0 +1,65 @@
+{
+  "name": "netgear-adapter",
+  "display_name": "Netgear",
+  "version": "0.0.1",
+  "description": "Netgear router adapter for Mozilla WebThings Gateway.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrstegeman/netgear-adapter.git"
+  },
+  "keywords": [
+    "mozilla",
+    "iot",
+    "adapter",
+    "netgear"
+  ],
+  "author": "Michael Stegeman",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mrstegeman/netgear-adapter/issues"
+  },
+  "homepage": "https://github.com/mrstegeman/netgear-adapter#readme",
+  "dependencies": {
+    "netgear": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.5.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "SHA256SUMS",
+    "index.js",
+    "lib/adapter.js",
+    "lib/device.js",
+    "lib/property.js",
+    "manifest.json",
+    "node_modules"
+  ],
+  "moziot": {
+    "api": {
+      "min": 2,
+      "max": 2
+    },
+    "plugin": true,
+    "exec": "{nodeLoader} {path}",
+    "schema": {
+      "type": "object",
+      "required": [
+        "password"
+      ],
+      "properties": {
+        "password": {
+          "title": "Admin Password",
+          "description": "Administrator password for router web interface.",
+          "type": "string"
+        }
+      }
+    }
+  }
+}
