@@ -1,6 +1,6 @@
 # netgear-adapter
 
-Netgear adapter for the [Mozilla WebThings Gateway](https://iot.mozilla.org).
+Netgear adapter for the [WebThings Gateway](https://github.com/WebThingsIO/gateway).
 
 ## Usage
 

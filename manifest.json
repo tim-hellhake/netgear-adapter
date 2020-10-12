@@ -1,6 +1,6 @@
 {
   "author": "Michael Stegeman",
-  "description": "Netgear adapter for Mozilla WebThings Gateway.",
+  "description": "Netgear adapter for WebThings Gateway.",
   "gateway_specific_settings": {
     "webthings": {
       "exec": "{nodeLoader} {path}",
@@ -30,5 +30,5 @@
     }
   },
   "short_name": "Netgear",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }

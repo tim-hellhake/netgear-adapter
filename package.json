@@ -1,7 +1,7 @@
 {
   "name": "netgear-adapter",
-  "version": "0.0.2",
-  "description": "Netgear router adapter for Mozilla WebThings Gateway.",
+  "version": "0.0.3",
+  "description": "Netgear router adapter for WebThings Gateway.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.5.0"
+    "eslint": "^7.11.0"
   },
   "files": [
     "LICENSE",
