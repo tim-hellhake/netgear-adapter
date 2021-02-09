@@ -1,6 +1,6 @@
 {
   "name": "netgear-adapter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Netgear router adapter for WebThings Gateway.",
   "main": "index.js",
   "scripts": {
@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/mrstegeman/netgear-adapter#readme",
   "dependencies": {
-    "netgear": "^4.2.0"
+    "netgear": "^4.3.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.11.0"
+    "eslint": "^7.19.0"
   },
   "files": [
     "LICENSE",
